@@ -2,11 +2,12 @@ package com.example.login;
 
 import java.io.Console;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         String username;
         String password;
+
+        //add extra line
 
         Console console = System.console();
         if (console != null) {
